@@ -34,8 +34,6 @@ class Book{
 
 }
 
-
-
 public class usecase1 {
     public static void main(String[] args) {
         Book b1 = new Book("Java Basics", "J. Author", 350.0, "ISBN001");
