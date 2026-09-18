@@ -1,8 +1,7 @@
 //WAP to access increament method of a class counter by taking it's reference into a thread class MyThread. Create 4 threads of MyThread class and access increament method of class counter.
 class Counter {
     int count = 0;
-
-    void increment() {
+    synchronized void increment() {
         count++;
     }
 }
